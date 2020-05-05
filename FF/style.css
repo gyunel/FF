@@ -1,0 +1,231 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 6px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	text-align: center;
+	background-color: #333;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	padding: 1.6rem 0;
+	font-size: 2rem;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*bash*/
+input{
+	height: 2rem;
+	border-radius: 7px;
+	opacity: 0.8;
+}
+.sign-in{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+span{
+	padding: 0.5rem;
+	border: 1px solid #86b300;
+	box-shadow: 1px solid lightgray;
+	border-radius: 8px;
+}
+header {
+	height: 45rem;
+}
+
+header .image-1 {
+	position: absolute;
+	background-image: url(bg1.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 45rem;
+	width: 100%;
+	opacity: 0.4;
+	z-index: -1;
+}
+
+header h1 {
+	padding: 11rem;
+	padding-bottom: 0;
+}
+.main-btn{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.btn {
+	color: white;
+	padding: 1.6rem 3.2rem;
+	margin: .5rem 0;
+	transition: all 0.3s;
+	cursor: pointer;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+.btn:hover {
+	background-color: white;
+	color:#86b300;
+}
+button{
+	width: 8rem;
+	height: 3rem;
+	color: white;
+	padding: 1rem 1rem;
+	margin: .5rem 0;
+	transition: all 0.3s;
+	cursor: pointer;
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: lightgray;
+}
+button:hover {
+	background-color: white;
+	color:#86b300;
+}
+.icon{
+	color: white;
+}
+
+#section-1 {
+	background-color: white;
+	color: #333;
+	padding: 3.2rem 0;
+}
+#section{
+	background-color: white;
+	color: #86b300;
+}
+
+/*merkez*/
+
+#section-2 {
+	padding: 2rem;
+}
+
+#section-2 ul {
+	list-style: none;
+}
+
+#section-2 li {
+	background: #fff;
+	color: #333;
+	margin-bottom: 1.5rem;
+}
+
+.col-content {
+	padding: 1.5rem;
+}
+.col-title{
+	color: #86b300;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 2rem;
+}
+.col-title1{
+	font-family: 'Alegreya Sans', sans-serif;
+	color: white;
+}
+
+#section-3 {
+	background-color: white;
+	color: #333;
+	padding: 5rem;
+}
+#section-4 .img-2{
+	position: absolute;
+	background-image: url(bg3.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 20rem;
+	width: 100%;
+	opacity: 0.4;
+	z-index: -1;
+}
+
+/*sonluq*/
+
+footer {
+	padding: 2rem;
+	background: #ffddcc;
+}
+.foot{
+	color: 	 #ff661a;
+}
+
+/*Desktop Phone*/
+
+@media screen and (min-width:800px) {
+
+	html {
+		font-size: 8px;
+	}
+}
+@media screen and (min-width:1200px) {
+
+	#section-2 li {
+		width: 28%;
+		margin: 1%;
+		display: inline-block;
+	}
+
+	html {
+		font-size: 10px;
+	}
+
+}
+
+.icons{
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+}
+
+
+.fa {
+  padding: 1rem;
+  font-size: 3rem;
+  width: 6rem;
+  height: auto;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+	padding-left: 1rem;
+  background: red;
+  color: white;
+}
+
+
+
+
+
+	
